@@ -1,0 +1,129 @@
+* { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: #FEFEFC;
+    color: #232323;
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 1.15rem;
+    line-height: 1.7;
+  }
+
+  .page {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 64px 24px 100px;
+  }
+
+  header.title-block {
+    margin-bottom: 48px;
+  }
+
+  .logo-spot {
+    margin-bottom: 28px;
+  }
+  .logo-spot img {
+    max-height: 112px;/*56px; */
+    max-width: 440px;/* 220px; */
+    display: block;
+  }
+
+  .logo-placeholder {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+    width: 160px;
+    border: 1px dashed #ccc;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 0.75rem;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .kicker {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 0.85rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #777;
+    margin-bottom: 12px;
+  }
+
+  .tagline {
+    font-family: 'Source Sans 3', sans-serif;
+    /* font-weight: 600; */
+    font-size: 1.15rem;
+    color: #777;
+    margin: 0 0 12px;
+  }
+
+  .fine-print {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 0.85rem;
+    color: #888;
+    margin-top: 0;/* 10px; */
+  }
+
+  h1 {
+    font-size: clamp(2.1rem, 5vw, 3rem);
+    font-weight: 600;
+    line-height: 1.15;
+    margin: 0 0 8px;
+  }
+
+  .intro {
+    font-size: 1.2rem;
+    color: #4a4a4a;
+  }
+
+  h2 {
+    font-size: 1.85rem;
+    font-weight: 600;
+    line-height: 1.25;
+    margin: 56px 0 12px;
+    padding-top: 28px;
+    border-top: 1px solid #e5e2da;
+  }
+
+  p { margin: 0 0 16px; }
+
+  ul { margin: 0 0 16px; padding-left: 22px; }
+  li { margin-bottom: 8px; }
+
+  a { color: #2F5C56; }
+
+  .team-member {
+    margin-bottom: 20px;
+  }
+  .team-member .name {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 600;
+    font-size: 1.05rem;
+  }
+  .team-member .role {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 4px;
+  }
+
+  .contact-line {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1.1rem;
+  }
+
+  footer {
+    margin-top: 56px;
+    padding-top: 20px;
+    border-top: 1px solid #e5e2da;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 0.85rem;
+    color: #999;
+  }
+
+  a {
+    color: #004CB1;
+    margin-bottom: 0px;
+  }
