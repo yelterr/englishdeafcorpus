@@ -52,11 +52,14 @@
   }
 
   .tagline {
+    position: relative;
     font-family: 'Source Sans 3', sans-serif;
-    /* font-weight: 600; */
-    font-size: 1.15rem;
+    font-weight: 600;
+    font-size: 1.2rem;
     color: #777;
-    margin: 0 0 12px;
+    margin: 0 0 20px;
+    padding-left: 18px;
+    border-left: 3px solid #004CB1;
   }
 
   .fine-print {
@@ -92,26 +95,52 @@
   ul { margin: 0 0 16px; padding-left: 22px; }
   li { margin-bottom: 8px; }
 
-  a { color: #2F5C56; }
-
   .team-member {
-    margin-bottom: 20px;
+    background: #FBF8F1;
+    border: 1px solid #eee7d9;
+    border-left: 4px solid #004CB1;
+    border-radius: 4px;
+    padding: 20px 22px;
+    margin-bottom: 18px;
   }
   .team-member .name {
     font-family: 'Source Sans 3', sans-serif;
-    font-weight: 600;
-    font-size: 1.05rem;
+    font-weight: 700;
+    font-size: 1.08rem;
   }
   .team-member .role {
     font-family: 'Source Sans 3', sans-serif;
-    font-size: 0.9rem;
-    color: #777;
-    margin-bottom: 4px;
+    font-size: 0.88rem;
+    color: #C1832E; /* #C1832E; */
+    font-weight: 600;
+    margin-bottom: 8px;
   }
+  .team-member p:last-child { margin-bottom: 0; }
 
   .contact-line {
     font-family: 'Source Sans 3', sans-serif;
     font-size: 1.1rem;
+  }
+
+  .btn {
+    display: inline-block;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-decoration: none;
+    color: #FEFEFC;
+    /* background: #2F5C56; */
+    background: #004CB1;
+    padding: 13px 26px;
+    border-radius: 4px;
+    margin-top: 8px;
+    box-shadow: 0 2px 0 rgba(0,0,0,0.12);
+    transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s ease;
+  }
+  .btn:hover {
+    background: #004299; /* #234742; */
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(47,92,86,0.25);
   }
 
   footer {
@@ -126,4 +155,25 @@
   a {
     color: #004CB1;
     margin-bottom: 0px;
+  }
+
+  .final-cta {
+    text-align: center;
+    background: #FBF8F1;
+    color: #f2efe8;
+    border-radius: 6px;
+    padding: 44px 32px;
+    margin-top: 60px;
+  }
+  .final-cta .eyebrow { color: #C1832E; }
+  .final-cta h2 { color: black; }
+  .final-cta p { color: #777; }
+  /*.final-cta .btn { background: #C1832E; box-shadow: 0 2px 0 rgba(0,0,0,0.2); }
+  .final-cta .btn:hover { background: #a86f26; } */
+  .final-cta .fine-print { color: #9aa39f; }
+
+
+  .better-h2 {
+    border-top: 0;
+    margin-top: 0;
   }
