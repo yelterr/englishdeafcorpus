@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="images/favicon.png">
 <title>English Deaf Corpus · A Corpus Linguistics Project</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,6 +12,8 @@
 </head>
 <body>
 <div class="page">
+
+  <!-- Hello to whoever is looking at the code -->
 
   <header class="title-block">
     <div class="logo-spot">
@@ -27,9 +30,9 @@
     
     <p class="intro">Help us build a research collection of authentic English writing created by Deaf and Hard of Hearing adults.</p>
 
-    <a class="btn" href="#">Participate in the Study</a>
+    <a class="btn" onClick="document.getElementById('contact-us').scrollIntoView();">Contact Us</a>
 
-    <p class="fine-print">Participation is voluntary and fully online.</p>
+    <!-- <p class="fine-print">Participation is voluntary and fully online.</p> -->
 
   </header>
 
@@ -65,7 +68,7 @@
       <li>Choose how many writing prompts they would like to complete</li>
     </ul>
     <p>The background questionnaire is also available in ASL. Participation is completely voluntary. You may decline to participate or withdraw your consent at any time without consequences.</p>
-    <a class="btn" href="#">Start the Study</a>
+    <a class="btn" href="poster.pdf">Learn More</a>
   </section>
 
   <section>
@@ -86,7 +89,7 @@
     <div class="team-member">
       <div class="name">Ethan Gomez</div>
       <div class="role">Co-Principal Investigator | Technology and Web Development</div>
-      <p>[Add Ethan's background here.]</p>
+      <p>Ethan Gomez is a Data Science major and Linguistics minor (B.S.) at the University of Florida. He helps support the technology behind the English Deaf Corpus, including the project's survey and website.</p>
       <p class="contact-line">Email: <a href="mailto:ethangomez@ufl.edu">ethangomez@ufl.edu</a></p>
     </div>
     <div class="team-member">
@@ -113,7 +116,7 @@
     <p>There is no direct financial benefit or payment for participating in this study.</p>
   </section>
 
-  <section>
+  <section id="contact-us">
     <span class="eyebrow">Contact</span>
     <h2>Questions?</h2>
     <p>For questions about the study, participation, accessibility, or the English Deaf Corpus project, please contact:</p>
@@ -136,8 +139,8 @@
     <span class="eyebrow">Get involved</span>
     <h2 class="better-h2">Share your writing</h2>
     <p>Your writing can help expand how researchers and educators understand English writing within Deaf and Hard of Hearing communities.</p>
-    <a class="btn" href="#">Participate in the English Deaf Corpus</a>
-    <p class="fine-print">Participation is voluntary and fully online.</p>
+    <a class="btn" href="poster.pdf">See Our Full Poster</a>
+    <!-- <p class="fine-print">Participation is voluntary and fully online.</p> -->
   </section>
 
   <footer>
